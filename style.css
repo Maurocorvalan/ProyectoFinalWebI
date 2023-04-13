@@ -1,0 +1,64 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: white;
+    padding: 0px 10% 0px 10%;
+}
+header{
+
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    height: 80px;
+}
+header nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;    
+        padding: 29px;
+}
+a{
+    text-decoration: none;
+    color:grey ;
+}
+nav a{
+    font-weight: 800;
+    align-items: baseline;
+    padding: 10px 50px 20px 50px;
+    font-size: large;
+    font-style: normal;
+}
+nav a:hover{
+    color:rgb(252, 75, 72);
+}
+.logo {
+    display: flex;
+    margin-right: 185px;
+}
+
+.logo img{
+    height: 70px;
+    padding: 5px 5px;
+}
+
+#hero{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 650px;
+    background-image:linear-gradient(
+        0deg,
+        rgba(155, 148, 148, 0.5),
+        rgba(146, 137, 137, 0.5)
+        ),
+        url("./img/noticia.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% ;
+        background-position:center;
+}
+#hero h1{
+
+}
