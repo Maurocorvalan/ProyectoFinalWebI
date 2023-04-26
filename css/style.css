@@ -1,6 +1,6 @@
 body{
     padding: 20px;
-    background:#DEDEDE ;
+    
 }
 header{
     display:flex;
@@ -40,8 +40,6 @@ input[type="search"] {
     
 }
 #Navigator{
-    background: white;
-    border: solid;
     width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -52,12 +50,14 @@ input[type="search"] {
     font-size:40px;
 }
 .navegador a{
-    padding: 10px;
+    padding: 5px 10px;
     margin-left: 150px;
     margin-right: 50px;
     text-decoration: none;
     color: black;
-    border-radius: 10px;
+    border-radius: 30px;
+    background-color: #b46e27;
+    box-shadow: 2px 5px 2px rgb(189, 187, 173);
 }
 #hero{
     position: relative;
