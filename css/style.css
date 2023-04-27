@@ -1,9 +1,9 @@
 body{
-    background-color: #eb3737;
+    background-color: #3d3d3d;
     padding: 20px;
     margin:0px;
     width:98%;
-    height:100vh;
+    height:99vh;
 }
 header{
     display:flex;
@@ -134,7 +134,6 @@ input[type="search"] {
     transform: scale(.97);
 }
 .description{
-    display: flex;
     position: absolute;
     top:0px;
     left:0px;
