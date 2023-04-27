@@ -71,9 +71,7 @@ input[type="search"] {
     transform: scale(1.05);
 }
 .navegador{
-    
-   
-    
+ 
     display: inline;
     font-size:40px;
     list-style: none;
@@ -199,9 +197,6 @@ input[type="search"] {
     margin-bottom: 10px;
     border: 2px solid black;
     
-}
-.boton{
-
 }
 
 footer{
