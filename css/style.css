@@ -20,9 +20,7 @@ input[type="search"] {
     border-radius: 10px;
     cursor: pointer;
     border: solid grey 1px;
-
   }
-
 .logo{
     display: flex;
     margin-left: 530px;
@@ -51,7 +49,6 @@ input[type="search"] {
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
       }
-
 .fb:hover{
     transform: rotate(360DEG);
     background: linear-gradient(120DEG, #204085, #4a6ebb);
@@ -64,10 +61,8 @@ input[type="search"] {
     width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
-
 }
-#Navigator:hover{
-    
+#Navigator:hover{ 
     transform: scale(1.05);
 }
 .navegador{
@@ -91,16 +86,13 @@ input[type="search"] {
 }
 .navegador ul li a:hover{
     transition: 0.3s ease;
-
     background: #b46e27;
 }
-
 #hero{
     position: relative;
 }
 #hero img{
-    width: 100%;
-    
+    width: 100%;  
 }
 .textoEncima{
     position: absolute;
@@ -111,7 +103,6 @@ input[type="search"] {
     color: white;
     padding: 20px;
     border-radius: 15px;
-
 }
 .textVendidos {
     text-align: center;
@@ -128,7 +119,6 @@ input[type="search"] {
     display: inline-flex;
     width:100%;
     background-color: #333;
-    
 }
 .vendido{
     padding: 10px;
@@ -138,7 +128,6 @@ input[type="search"] {
     cursor: pointer;
     transition: all .2s cubic-bezier(.8,.5,.2,1.4);
     overflow: hidden;
-    
 }
 .vendido img{
     max-width: 600px;
@@ -196,7 +185,6 @@ input[type="search"] {
     border-radius: 4px;
     margin-bottom: 10px;
     border: 2px solid black;
-    
 }
 
 footer{
