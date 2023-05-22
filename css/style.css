@@ -92,6 +92,7 @@ input[type="search"] {
 }
 #hero img{
     width: 100%;  
+    display: flex;
 }
 .textoEncima{
     position: absolute;
@@ -102,6 +103,8 @@ input[type="search"] {
     color: white;
     padding: 20px;
     border-radius: 15px;
+    width: 350px;
+    
 }
 .textVendidos {
     text-align: center;
