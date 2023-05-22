@@ -73,7 +73,7 @@ input[type="search"] {
 .navegador li{ 
     display: inline;
 }
-.navegador ul li a{
+.navegador ul nav a{
     padding: 5px 20px;
     margin-left: 120px;
     margin-right: 50px;
