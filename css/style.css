@@ -70,10 +70,10 @@ input[type="search"] {
     font-size:40px;
     list-style: none;
 }
-.navegador li{ 
+.navegador nav{ 
     display: inline;
 }
-.navegador ul nav a{
+.navegador  nav a{
     padding: 5px 20px;
     margin-left: 120px;
     margin-right: 50px;
