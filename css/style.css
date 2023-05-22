@@ -83,7 +83,7 @@ input[type="search"] {
     background-color: #9da4a0;
     box-shadow: 2px 5px 2px rgb(189, 187, 173);
 }
-.navegador ul li a:hover{
+.navegador nav a:hover{
     transition: 0.3s ease;
     background: #b46e27;
 }
