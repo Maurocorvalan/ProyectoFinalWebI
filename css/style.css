@@ -95,10 +95,12 @@ header h1{
 }
 #hero{
     position: relative;
+    border-radius: 15px;
 }
-#hero img{
+.container img{
     width: 100%;  
     display: flex;
+    border-radius: 50px;
 }
 .textoEncima{
     position: absolute;
@@ -129,6 +131,7 @@ header h1{
     background-color: #333;
 }
 .vendido{
+    border-radius: 5px;
     padding: 10px;
     background: #fff;
     border: 2px solid #fff;
@@ -244,6 +247,10 @@ aside h2{
     margin-top: 30px;
     margin-bottom: 30px;
     width: 100%;
+}
+aside img{
+    border-radius: 20px;
+    margin: 10px 10px;
 }
 aside p{
     margin: 30px 30px 60px 30px;
