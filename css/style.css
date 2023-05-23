@@ -1,19 +1,30 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto Flex', sans-serif;
+}
 body{
     background-color: #3d3d3d;
     padding: 20px;
-    margin:0px;
-    width:98%;
+    margin:10px;
+    width:96%;
     height:99vh;
 }
 header{
     display:flex;
     align-items: center;
     background: #9da4a0;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
     width: 100%;
     border: solid;
     height: 150px;
+}
+header h1{
+    color: #b46e27;
+    margin-left: 100px;    
 }
 input[type="search"] {
     margin-left: 100px;
@@ -75,7 +86,7 @@ input[type="search"] {
 }
 .navegador  nav a{
     padding: 5px 20px;
-    margin-left: 120px;
+    margin-left: 150px;
     margin-right: 50px;
     text-decoration: none;
     color: black;
@@ -197,4 +208,30 @@ footer{
     justify-content: center;
     text-align: center;
 }
-  
+/*Css pagina camisas, articulo*/
+#main{
+    width: 95%;
+    display: inline-flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.contenedor{
+   
+    margin-left: 130px;
+    margin-right: 50px;
+}
+.articulo{
+    color: white;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 30px;
+    box-shadow: -10px 0 20px -8px #b46e27;
+    position: relative;
+}
+.articulo img{
+    width: 100%;
+    height: 1000px;
+}
+aside{
+background-color: blue;
+}
