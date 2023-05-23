@@ -233,6 +233,7 @@ footer{
 .articulo img{
     width: 100%;
     height: 1000px;
+    border-radius: 10px;
 }
 .articulo p{
     margin: 15px;
