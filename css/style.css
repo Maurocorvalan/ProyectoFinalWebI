@@ -276,7 +276,7 @@ aside p{
     margin-left: 37.3px;
     transition: 300ms;
 }
-.carta1, .carta2, .carta3, .carta4, .carta5{
+.carta{
     height: 350px;
     width: 300px;
     display: flex;
@@ -287,14 +287,13 @@ aside p{
     position: absolute;
     transition: 300ms;
 }
-.imagen_carta, .imagen_carta2, .imagen_carta3, .imagen_carta4, .imagen_carta5{
+.imagen_carta, .imagen_carta2, .imagen_carta3, .imagen_carta4, .imagen_carta5, .imagen_carta6, .imagen_carta7, .imagen_carta8, .imagen_carta9, .imagen_carta10{
     border-radius: 10%;
     background-size: cover;
     height: 100%;
     width: 100%;
     transition: 300ms;
     filter: drop-shadow(5px -4px 10px #000);
-    
 }
 .imagen_carta{
     background-image: url(../img/gorra1.jpg);
@@ -311,6 +310,71 @@ aside p{
 .imagen_carta5{
     background-image: url(../img/gorra5.jpg);
 }
-.detalle, .detalle2, .detalle3, .detalle4, .detalle5{
-  
+.imagen_carta6{
+    background-image: url(../img/gorra6.jpg);
 }
+.imagen_carta7{
+    background-image: url(../img/gorra7.jpg);
+}
+.imagen_carta8{
+    background-image: url(../img/gorra8.jpg);
+}
+.imagen_carta9{
+    background-image: url(../img/gorra9.jpg);
+}
+.imagen_carta10{
+    background-image: url(../img/gorra10.jpg);
+}
+.detalle{
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  margin-top: 130px;
+  z-index: 2;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  transition: 300ms;
+
+}
+.detalle h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.detalle p{
+    margin: auto;
+    width: 90%;
+    font-size: 15px;
+}
+.card:hover{
+    transform: scale(1.25);
+}
+.btn {
+    width: 100px;
+    margin: auto;
+    cursor: pointer;
+    background: #e3edf6;
+    background-image: -webkit-linear-gradient(top, #e3edf6, #b46e27);
+    background-image: -moz-linear-gradient(top, #e3edf6, #b46e27);
+    background-image: -ms-linear-gradient(top, #e3edf6, #b46e27);
+    background-image: -o-linear-gradient(top, #e3edf6, #b46e27);
+    background-image: linear-gradient(to bottom, #e3edf6, #b46e27);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #b46e27;
+    background-image: -webkit-linear-gradient(top, #b46e27, #b46e27);
+    background-image: -moz-linear-gradient(top, #b46e27, #b46e27);
+    background-image: -ms-linear-gradient(top, #b46e27, #b46e27);
+    background-image: -o-linear-gradient(top, #b46e27, #b46e27);
+    background-image: linear-gradient(to bottom, #b46e27, #b46e27);
+    text-decoration: none;
+  }
