@@ -295,6 +295,14 @@ aside p{
     transition: 300ms;
     filter: drop-shadow(5px -4px 10px #000);
 }
+.imagen_cartaZ1, .imagen_cartaZ2, .imagen_cartaZ3, .imagen_cartaZ4, .imagen_cartaZ5, .imagen_cartaZ6, .imagen_cartaZ7, .imagen_cartaZ8, .imagen_cartaZ9, .imagen_cartaZ10{
+    border-radius: 10%;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+} 
 .imagen_carta{
     background-image: url(../img/gorra1.jpg);
 }
@@ -324,6 +332,37 @@ aside p{
 }
 .imagen_carta10{
     background-image: url(../img/gorra10.jpg);
+}
+  /*Css pag zapatillas*/
+.imagen_cartaZ1{
+    background-image: url(../img/zapatillas1.jpg);
+}
+.imagen_cartaZ2{
+    background-image: url(../img/zapatillas2.jpg);
+}
+.imagen_cartaZ3{
+    background-image: url(../img/zapatillas3.jpg);
+}
+.imagen_cartaZ4{
+    background-image: url(../img/zapatillas4.jpg);
+}
+.imagen_cartaZ5{
+    background-image: url(../img/zapatillas5.jpg);
+}
+.imagen_cartaZ6{
+    background-image: url(../img/zapatillas6.jpg);
+}
+.imagen_cartaZ7{
+    background-image: url(../img/zapatillas7.jpg);
+}
+.imagen_cartaZ8{
+    background-image: url(../img/zapatillas8.jpg);
+}
+.imagen_cartaZ9{
+    background-image: url(../img/zapatillas9.jpg);
+}
+.imagen_cartaZ10{
+    background-image: url(../img/zapatillas10.jpg);
 }
 .detalle{
   height: 200px;
@@ -379,3 +418,4 @@ aside p{
     background-image: linear-gradient(to bottom, #b46e27, #b46e27);
     text-decoration: none;
   }
+  /*Css pag zapatillas*/
