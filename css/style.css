@@ -28,13 +28,13 @@ header{
 }
 header h1{
     color: #b46e27;
-    margin-left: 100px;    
+    margin-right: 300px;   
 }
 
 .logo{
     display: flex;
-    margin-left: 530px;
-    margin-right: 550px;
+    margin-left: 80px;
+    margin-right: 350px;
 }
 .logo img{
     height: 200px;
@@ -48,7 +48,7 @@ header h1{
 .redes img{
     transition: 1s ease;
     border-radius: 20px;
-    margin-left: 20px;
+    margin-left: 5px;
     padding: 15px;
     box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.5);
 }
