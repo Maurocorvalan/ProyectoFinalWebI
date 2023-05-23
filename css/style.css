@@ -345,6 +345,7 @@ aside p{
     margin: auto;
     width: 90%;
     font-size: 15px;
+    font-weight: bold;    
 }
 .card:hover{
     transform: scale(1.25);
