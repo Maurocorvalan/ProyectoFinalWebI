@@ -219,7 +219,6 @@ header h1{
 .button:hover{
     background: #b46e27;
     text-decoration: none;
-
 }
 footer{
     background-color: black;
@@ -283,15 +282,11 @@ aside p{
 }
 /*Css cartas pagina gorras*/
 .containercard{
-    height: 100vh;
-    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;   
     margin-top: 100px; 
 }
 .card{
-    height: 350px;
     width: 300px;
     margin: 20px;
     margin-left: 37.3px;
@@ -299,24 +294,25 @@ aside p{
 }
 .carta{
     height: 350px;
-    width: 300px;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 10%;
     color: #b46e27;
-    position: absolute;
     transition: 300ms;
+
 }
 .imagen_carta, .imagen_carta2, .imagen_carta3, .imagen_carta4, .imagen_carta5, .imagen_carta6, .imagen_carta7, .imagen_carta8, .imagen_carta9, .imagen_carta10{
-    border-radius: 10%;
+    background-position: center center;
     background-size: cover;
-    height: 100%;
+    border-radius: 10%;
+    height: auto;
     width: 100%;
+    background-size: cover;
     transition: 300ms;
     filter: drop-shadow(5px -4px 10px #000);
 }
 .imagen_cartaZ1, .imagen_cartaZ2, .imagen_cartaZ3, .imagen_cartaZ4, .imagen_cartaZ5, .imagen_cartaZ6, .imagen_cartaZ7, .imagen_cartaZ8, .imagen_cartaZ9, .imagen_cartaZ10{
+    background-position: center center;
     border-radius: 10%;
     background-size: cover;
     height: 100%;
