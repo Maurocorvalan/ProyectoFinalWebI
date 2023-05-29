@@ -207,18 +207,9 @@ header h1{
 }
 
 .button{
-    background: #556162;
-    background-image: -webkit-linear-gradient(top, #556162, #b46e27);
-    background-image: -moz-linear-gradient(top, #556162, #b46e27);
-    background-image: -ms-linear-gradient(top, #556162, #b46e27);
-    background-image: -o-linear-gradient(top, #556162, #b46e27);
-    background-image: linear-gradient(to bottom, #556162, #b46e27);
-    -webkit-border-radius: 15;
-    -moz-border-radius: 15;
     border-radius: 15px;
-    text-shadow: 1px 0px 15px #556162;
     font-family: 'Roboto Flex', sans-serif;;
-    color: #ffffff;
+    color: #383636;
     font-size: 20px;
     padding: 11px 20px 10px 20px;
     border: solid #1f628d 2px;
@@ -227,11 +218,6 @@ header h1{
 }
 .button:hover{
     background: #b46e27;
-    background-image: -webkit-linear-gradient(top, #b46e27, #556162);
-    background-image: -moz-linear-gradient(top, #b46e27, #556162);
-    background-image: -ms-linear-gradient(top, #b46e27, #556162);
-    background-image: -o-linear-gradient(top, #b46e27, #556162);
-    background-image: linear-gradient(to bottom, #b46e27, #556162);
     text-decoration: none;
 
 }
