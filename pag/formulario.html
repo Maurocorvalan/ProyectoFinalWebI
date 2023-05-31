@@ -32,17 +32,24 @@
         </div>
     </section>
     <section id="Registro">
-        <div class="container">
+        <div class="containerForm">
             <h3> Dejanos tu comentario para poder seguir creciendo!</h3>
-            <form>
-                <input class="formularioItem" type="text" name="name" placeholder="Nombre y apellido">
-                <input class="formularioItem" type="email" placeholder="Email">
-                <input class="formularioItem" type="tel" name="telefono" placeholder="Telefono">
-                <textarea rows="10" cols="27" class="formularioItem" type="text" name="recomendaciones" placeholder="Envianos tus recomendaciones"></textarea>
+            <form onsubmit="return validar()">
+                <input id="nombre" class="formularioItem" type="text" name="name" placeholder="Nombre y apellido: " autofocus>
+
+                <input id="email"class="formularioItem" type="email" placeholder="Email: ">
+
+                <input id="telef"class="formularioItem" type="tel" name="Telefono: " placeholder="Telefono">
+
+                <textarea rows="10" cols="27" id="recomend"class="formularioItem" type="text" name="recomendaciones" placeholder="Envianos tus recomendaciones (max 50 caracteres): "></textarea>
+
                 <div class="boton">
                     <button class="button">Enviar</button>
                   </div>
             </form>
+            <ul id="ltaErrores"></ul>
+            <ul id="ltaMensajes"></ul>
+
         </div>
     </section>
 </body>
