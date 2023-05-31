@@ -343,6 +343,7 @@ aside p{
     flex-wrap: wrap;
     margin-top: 100px; 
 }
+
 .card{
     width: 300px;
     margin: 20px;
@@ -358,7 +359,15 @@ aside p{
     border-radius: 10%;
     color: #b46e27;
     transition: 300ms;
-
+}
+.containercard:hover .card{
+    opacity: 0.5;
+    filter: blur(3px);
+}
+.containercard .card:hover{
+    opacity: 1;
+    filter: blur(0px);
+    transform: scale(1.1);
 }
 .imagen_carta, .imagen_carta2, .imagen_carta3, .imagen_carta4, .imagen_carta5, .imagen_carta6, .imagen_carta7, .imagen_carta8, .imagen_carta9, .imagen_carta10{
     background-position: center center;
