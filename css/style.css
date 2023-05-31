@@ -367,7 +367,7 @@ aside p{
 .containercard .card:hover{
     opacity: 1;
     filter: blur(0px);
-    transform: scale(1.1);
+    transform: 100ms;
 }
 .imagen_carta, .imagen_carta2, .imagen_carta3, .imagen_carta4, .imagen_carta5, .imagen_carta6, .imagen_carta7, .imagen_carta8, .imagen_carta9, .imagen_carta10{
     background-position: center center;
