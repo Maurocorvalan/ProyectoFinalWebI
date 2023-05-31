@@ -253,7 +253,8 @@ header h1{
 
 .error{
     border: 4px solid red;
-}
+    
+    }
 ul{
     list-style-type: none;
 }
@@ -262,12 +263,13 @@ li{
     font-weight: bold;
     font-size: 16px;
     border: solid red;
+    margin: 5px;
 }
 .button{
     border-radius: 15px;
     font-family: 'Roboto Flex', sans-serif;;
     color: #383636;
-    font-size: 20px;
+    font-size: 15px;
     padding: 11px 20px 10px 20px;
     border: solid #1f628d 2px;
     text-decoration: none;
