@@ -90,7 +90,7 @@ header h1{
     margin-left: 150px;
     margin-right: 50px;
     text-decoration: none;
-    color: black;
+    color: #b46e27;;
     border-radius: 30px;
     background-color: #9da4a0;
     box-shadow: 2px 5px 2px rgb(189, 187, 173);
@@ -123,14 +123,18 @@ header h1{
 .textVendidos {
     text-align: center;
     margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.textVendidos h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #b46e27;
     font-size: 50px;
-    color: white;
-    font-style: italic;
+    font-family: italic;
+    width: 300px;
+    background-color: #9da4a0;
+    padding: 10px;
+    border-radius: 30px;
 }
+
+
 #masVendidos{
     display: inline-flex;
     width:100%;
@@ -184,6 +188,46 @@ header h1{
     color: #ff3838;
     letter-spacing: 1px;
     margin: 0px;
+}
+
+#carrousel{
+    width: 100%;
+    height: auto;
+    margin: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cambioAtras{
+    margin: 20px;
+    padding: 10px;
+}
+.cambioAdelante{
+    margin: 20px;
+    padding: 10px;
+
+}
+.ftoCarr{
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10%;
+    height: 500px;
+    width: 30%;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.textCarrousel{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #b46e27;
+    font-size: 50px;
+    background-color: #9da4a0;
+    padding: 10px;
+    border-radius: 30px;
+    width: 700px;
 }
 
 #Registro{
@@ -307,7 +351,6 @@ aside p{
     border-radius: 10%;
     height: auto;
     width: 100%;
-    background-size: cover;
     transition: 300ms;
     filter: drop-shadow(5px -4px 10px #000);
 }
@@ -435,4 +478,4 @@ aside p{
     background-image: linear-gradient(to bottom, #b46e27, #b46e27);
     text-decoration: none;
   }
-  /*Css pag zapatillas*/
+ 
