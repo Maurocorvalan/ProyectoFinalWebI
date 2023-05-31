@@ -1,3 +1,4 @@
+//Carrousel de imagenes
 let cont=0;
 let imagenes = ["img/imgcarrousel1.jpg",
                 "img/imgcarrousel2.jpg",
@@ -11,9 +12,6 @@ let imagenes = ["img/imgcarrousel1.jpg",
                 "img/imgcarrousel10.jpg",
                 ];
 document.fotoCarrousel.src = imagenes[0];
-
-
-
 let btnDerecho = document.querySelector(".cambioAdelante");
 let btnIzquierdo = document.querySelector(".cambioAtras");
 function moverAdelante(){
@@ -24,7 +22,6 @@ function moverAdelante(){
     document.fotoCarrousel.src = imagenes[cont];
 }
 btnDerecho.addEventListener("click", moverAdelante);
-
 function moverAtras(){
     cont--;
     if(cont < 0){
@@ -34,6 +31,7 @@ function moverAtras(){
 }
 btnIzquierdo.addEventListener("click",moverAtras);
 
+//Validacion formulario
 function validar(){
     //Expresion regular de un email
     let exregEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -49,7 +47,7 @@ function validar(){
 
     ltaErrores.innerHTML = "";
     ltaMensajes.innerHTML = "";
-    
+
     nombre.classList.remove("error");
     recomendaciones.classList.remove("error");
     email.classList.remove("error");

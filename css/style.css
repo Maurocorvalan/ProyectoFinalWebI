@@ -465,6 +465,7 @@ aside p{
     transform: scale(1.25);
 }
 .btn {
+    display: flex;
     width: 100px;
     margin: auto;
     cursor: pointer;
@@ -479,8 +480,8 @@ aside p{
     border-radius: 10px;
     font-family: Arial;
     color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    font-size: 13px;
+    padding: 15px 20px 15px 20px;
     text-decoration: none;
   }
   
