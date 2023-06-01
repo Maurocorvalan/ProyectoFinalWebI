@@ -316,7 +316,7 @@ footer{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-/*Css pagina camisas, articulo*/
+/*Css pagina articulo*/
 #main{
     width: 95%;
     display: inline-flex;
@@ -367,11 +367,12 @@ aside p{
     margin: 30px 30px 60px 30px;
     font-size: large;
 }
-/*Css cartas pagina gorras*/
+/*Css cartas pagina gorras, zapatillas*/
 .containercard{
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px; 
+
 }
 
 .card{
@@ -380,6 +381,7 @@ aside p{
     margin-left: 37.3px;
     transition: 300ms;
     margin-bottom: 50px;
+    position: relative;
 
 }
 .carta{
@@ -481,46 +483,52 @@ aside p{
 .detalle{
   height: 200px;
   width: 300px;
-  position: absolute;
   margin-top: 130px;
   z-index: 2;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   transition: 300ms;
-
+  top: 10px;
 }
 .detalle h2 {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #b46e27;
+    background-color: rgba(128, 125, 125, 0.5);
+    border-radius: 10px;
 }
 .detalle p{
+    top: 10px;
+    left: 0px;
     margin: auto;
     width: 90%;
     font-size: 15px;
     font-weight: bold;    
 }
+#hide{
+    display: none;
+}
+
 .card:hover{
     transform: scale(1.25);
 }
 .btn {
+    position: absolute;
     display: flex;
-    width: 100px;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
     margin: auto;
     cursor: pointer;
     background: #e3edf6;
-    background-image: -webkit-linear-gradient(top, #e3edf6, #b46e27);
-    background-image: -moz-linear-gradient(top, #e3edf6, #b46e27);
-    background-image: -ms-linear-gradient(top, #e3edf6, #b46e27);
-    background-image: -o-linear-gradient(top, #e3edf6, #b46e27);
-    background-image: linear-gradient(to bottom, #e3edf6, #b46e27);
-    -webkit-border-radius: 10;
-    -moz-border-radius: 10;
+    background-color: rgba(128, 125, 125, 0.5);
     border-radius: 10px;
     font-family: Arial;
     color: #ffffff;
-    font-size: 13px;
-    padding: 15px 20px 15px 20px;
+    font-size: 12px;
+    padding: 18px 20px 18px 20px;
     text-decoration: none;
   }
   
