@@ -190,6 +190,7 @@ header h1{
 }
 
 #carrousel{
+    position: relative;
     width: 100%;
     height: auto;
     margin: 50px 50px;
@@ -197,14 +198,36 @@ header h1{
     align-items: center;
     justify-content: center;
 }
-.cambioAtras{
+.cambioAtras {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
     margin: 20px;
-    padding: 10px;
+    padding: 20px 10px 20px 10px;    
+    border-radius: 100%;
+    margin-right: 500px; 
 }
 .cambioAdelante{
-    margin: 20px;
-    padding: 10px;
-
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    padding: 20px 10px 20px 10px;    
+    border-radius: 100%;
+    margin-left: 470px;
+}
+.cambioAtras:hover {
+    background-color: rgb(180,110,39, 0.5);
+    transition: 400ms;
+}
+.cambioAdelante:hover{
+    background-color: rgb(180,110,39, 0.5);
+    transition: 400ms;
 }
 .ftoCarr{
     align-items: center;
