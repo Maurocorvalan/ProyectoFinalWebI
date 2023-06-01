@@ -104,10 +104,10 @@ function validar(){
 }
 
 function mostrar(){
-    document.getElementById('hide').style.display = 'block';
-    document.getElementById('botonMas').style.display = 'none';
+    document.getElementById('hide').style.display = 'flex';
+
 }
 function ocultar(){
     document.getElementById('hide').style.display = 'none';
-    document.getElementById('botonMas').style.display = 'block';
+    document.getElementById('botonMas').style.display = 'flex';
 }
