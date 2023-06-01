@@ -105,7 +105,7 @@ function validar(){
 
 function mostrar(){
     document.getElementById('hide').style.display = 'flex';
-
+    document.getElementById('botonMas').style.display = 'none';
 }
 function ocultar(){
     document.getElementById('hide').style.display = 'none';
