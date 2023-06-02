@@ -483,7 +483,7 @@ aside p{
 .detalle{
   height: 200px;
   width: 300px;
-  margin-top: 130px;
+  margin-top: 70px;
   z-index: 2;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
@@ -497,14 +497,14 @@ aside p{
     color: #b46e27;
     background-color: rgba(128, 125, 125, 0.5);
     border-radius: 10px;
+
 }
 .detalle p{
-    top: 10px;
-    left: 0px;
-    margin: auto;
+    margin-top: 0;
     width: 90%;
     font-size: 15px;
-    font-weight: bold;    
+    font-weight: bold;  
+
 }
 #hide{
     display: none;
