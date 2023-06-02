@@ -97,6 +97,7 @@ header h1{
 .navegador nav a:hover{
     transition: 0.3s ease;
     background: #b46e27;
+    color: black;
 }
 #hero{
     position: relative;
